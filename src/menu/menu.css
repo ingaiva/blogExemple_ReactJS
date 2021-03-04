@@ -1,0 +1,39 @@
+.menu-inline {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    margin-bottom: 0px;
+  }
+  
+  .menu-item {
+    margin: 5px 20px;
+    list-style: none;
+    font-weight: bold;
+    /* pour centrer le text <a> à l'interieur */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .menu-item a{
+    text-decoration: none;
+    color: inherit;  
+    
+  }
+  .menu-inline > div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .menu-inline img{
+    margin: 5px 15px;
+    width: auto;
+    height: auto;
+    max-width: 130px;
+    min-width: 40px;
+  }
+  
+  
